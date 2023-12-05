@@ -104,30 +104,9 @@ export const list = [
   },
   {
     id: 5,
-    image: 'https://www.course-api.com/images/people/person-1.jpeg',
+    image: 'https://www.course-api.com/images/people/person-5.jpeg',
     name: 'Maria F.',
     quote:
       'Dla osób preferujących smaczną kuchnię, restauracja oferuje bogate w smaki i kreatywne dania. Jestem pod wrażeniem różnorodności i smaków.',
-  },
-  {
-    id: 6,
-    image: 'https://www.course-api.com/images/people/person-4.jpeg',
-    name: 'Jan S.',
-    quote:
-      'Nie tylko jedzenie, ale także atmosfera i design restauracji są godne uwagi. Stylowe wnętrze, odpowiednie oświetlenie i przyjemna muzyka sprawiły, że wieczór był jeszcze bardziej wyjątkowy.',
-  },
-  {
-    id: 7,
-    image: 'https://www.course-api.com/images/people/person-3.jpeg',
-    name: 'Piotr B.',
-    quote:
-      'Pomimo dużej ilości gości, obsługa była szybka i sprawna. Kelnerzy byli pomocni i zawsze dostępni, a dania serwowane bez zbędnego oczekiwania.',
-  },
-  {
-    id: 8,
-    image: 'https://www.course-api.com/images/people/person-2.jpeg',
-    name: 'Zuza',
-    quote:
-      'Każdy posiłek w tej restauracji to prawdziwe doświadczenie smakowe. Kuchnia zaskakuje unikalnymi połączeniami smaków, które pozostawiają niezapomniane wrażenia dla podniebienia.',
   },
 ]
