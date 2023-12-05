@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import Title from './Title'
-import menu from './data'
+import { menu } from './data'
 import Menu from './Menu'
 import Categories from './Categories'
+import SlickCarousel from './SlickCarousel'
 
 const allCategories = [
   'całe menu',
@@ -26,6 +27,10 @@ const App = () => {
         <Title text="Nasze menu" />
         <Categories categories={categories} filterItems={filterItems} />
         <Menu items={menuItems} />
+      </section>
+      <section className="opinions">
+        <Title text="Wasze opinie" />
+        <SlickCarousel />
       </section>
     </main>
   )

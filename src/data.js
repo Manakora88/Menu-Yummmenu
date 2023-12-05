@@ -1,4 +1,4 @@
-const menu = [
+export const menu = [
   {
     id: 1,
     title: 'Maślane pancakes',
@@ -61,7 +61,7 @@ const menu = [
     category: 'obiad',
     price: 30.99,
     img: '/images/item-8.jpeg',
-    desc: `Dla tradycjonalistów klasyczny burger - pojedynczy kotlet wołowy, boczek, ser cheddar, warzywa i majonez. Serwowany z frutkami. `,
+    desc: `Dla tradycjonalistów klasyczny burger - pojedynczy kotlet wołowy, boczek, ser cheddar, warzywa i majonez. Serwowany z frytkami. `,
   },
   {
     id: 9,
@@ -72,4 +72,62 @@ const menu = [
     desc: `Przerwa na shake'a. Kadego dnia inny smak w ofercie. Najlepiej smakuje z druga osobą - drugiego shake'a dostaniecie za pół ceny. `,
   },
 ]
-export default menu
+
+export const list = [
+  {
+    id: 1,
+    image: 'https://www.course-api.com/images/people/person-1.jpeg',
+    name: 'Katarzyna Z.',
+    quote:
+      'Obsługa była niezwykle przyjazna, a jedzenie przeszło wszelkie oczekiwania! Smaki były bogate, a dania starannie przygotowane. Na pewno tam wrócę!',
+  },
+  {
+    id: 2,
+    image: 'https://www.course-api.com/images/people/person-4.jpeg',
+    name: 'Bohdan C.',
+    quote:
+      'Dania są prawdziwym dziełem sztuki kulinarnej. Każdy kęs to prawdziwa przyjemność, a smaki łączą się w niepowtarzalny sposób.',
+  },
+  {
+    id: 3,
+    image: 'https://www.course-api.com/images/people/person-3.jpeg',
+    name: 'Paweł Z.',
+    quote:
+      'Menu jest imponująco zróżnicowane, obejmując zarówno tradycyjne smaki, jak i innowacyjne połączenia. Każdy znajdzie coś dla siebie, niezależnie od preferencji kulinarnej.',
+  },
+  {
+    id: 4,
+    image: 'https://www.course-api.com/images/people/person-2.jpeg',
+    name: 'Łucja R.',
+    quote:
+      'Restauracja stawia na jakość składników, co widać w każdym daniu. Świeże produkty sprawiają, że jedzenie smakuje niezwykle intensywnie.',
+  },
+  {
+    id: 5,
+    image: 'https://www.course-api.com/images/people/person-1.jpeg',
+    name: 'Maria F.',
+    quote:
+      'Dla osób preferujących smaczną kuchnię, restauracja oferuje bogate w smaki i kreatywne dania. Jestem pod wrażeniem różnorodności i smaków.',
+  },
+  {
+    id: 6,
+    image: 'https://www.course-api.com/images/people/person-4.jpeg',
+    name: 'Jan S.',
+    quote:
+      'Nie tylko jedzenie, ale także atmosfera i design restauracji są godne uwagi. Stylowe wnętrze, odpowiednie oświetlenie i przyjemna muzyka sprawiły, że wieczór był jeszcze bardziej wyjątkowy.',
+  },
+  {
+    id: 7,
+    image: 'https://www.course-api.com/images/people/person-3.jpeg',
+    name: 'Piotr B.',
+    quote:
+      'Pomimo dużej ilości gości, obsługa była szybka i sprawna. Kelnerzy byli pomocni i zawsze dostępni, a dania serwowane bez zbędnego oczekiwania.',
+  },
+  {
+    id: 8,
+    image: 'https://www.course-api.com/images/people/person-2.jpeg',
+    name: 'Zuza',
+    quote:
+      'Każdy posiłek w tej restauracji to prawdziwe doświadczenie smakowe. Kuchnia zaskakuje unikalnymi połączeniami smaków, które pozostawiają niezapomniane wrażenia dla podniebienia.',
+  },
+]
